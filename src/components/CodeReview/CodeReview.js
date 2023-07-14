@@ -15,7 +15,7 @@ const CodeReview = () => {
       let newchatlog = [...chatlog, { user: "me", message: `${input}` }];
       const code = input;
       setInput("");
-      setchatlog(newchatlog);
+      setchatlog([...newchatlog,{user:"gpt",message : "Loading..."}]);
   
       const response = await fetch("https://codereview-backend2.onrender.com", {
         method: "POST",
