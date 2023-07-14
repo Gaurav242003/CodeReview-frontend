@@ -52,7 +52,7 @@ const CodeReview = () => {
 
         <div className="chat-input-container" >
           <form onSubmit={handleSubmit} style={{ width: "100%", display: "flex", justifyContent: "center" }}   >
-            <input className="chat-input" placeholder="Paste you code here"
+            <input className="chat-input" placeholder="Paste your code here"
               value={input}
 
               onChange={(e) => setInput(e.target.value)}
