@@ -24,6 +24,7 @@ html, body, ul, li, h1, h2, h3, h4, p, form {
    
   }
   #nav{
+    
     align-items: center;
     color: white;
     justify-content: center;
@@ -32,12 +33,22 @@ html, body, ul, li, h1, h2, h3, h4, p, form {
   .navbar {
     display: flex;
     width: 80%;
-    
+    text-align: center;
     justify-content: space-between;
     align-items: center;
-  
+    @media screen  and (max-width:500px){
+      width: auto;
+  }
    
   }
+
+ 
+
+  .navsec{
+    @media screen  and (max-width:500px){
+        display: none;
+    }
+   }
   
   header {
     background-color: rgb(28, 27, 27);
@@ -81,6 +92,9 @@ html, body, ul, li, h1, h2, h3, h4, p, form {
   #hero h2 {
     font-size: 40px;
     margin-bottom: 20px;
+    @media screen  and (max-width:500px){
+      font-size: 30px;
+ }
   }
   
   #hero .cta-btn {
@@ -120,7 +134,7 @@ html, body, ul, li, h1, h2, h3, h4, p, form {
      display: flex;
      justify-content: center;
      align-items: center;
-     width: 100%;
+    
      flex-wrap: wrap;
   }
 

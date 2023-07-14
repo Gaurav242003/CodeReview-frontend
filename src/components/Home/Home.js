@@ -16,7 +16,7 @@ const Home = () => {
                             <h1>{`<CodeReview/>`}</h1>
                         </div>
 
-                        <div>
+                        <div className='navsec'>
                             <ul>
                                 <li><a href="#features">Benifits</a></li>
                                 <li><a href="#contact">Contact</a></li>
@@ -29,7 +29,7 @@ const Home = () => {
 
             <section id="hero"  className='herosec'>
                 <div className="container">
-                    <h2> Your Ultimate Code Review Companion!</h2>
+                    <h2  className='heading'> Your Ultimate Code Review Companion!</h2>
                     <p>Enhance your coding journey with our cutting-edge code review web app. Whether you're a seasoned developer or just starting out, our platform is designed to streamline the code review process and elevate the quality of your software projects.</p>
                     <a href="#CodeReview" class="cta-btn">Review your code</a>
                 </div>
