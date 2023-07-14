@@ -63,25 +63,6 @@ reduces the time and effort required for reviewing code, allowing developers.</p
 
 
 
-            {/* <section id="contact">
-    <h3>Contact Us</h3>
-    
-    <div class="container">
-      <p>Interested in our recruitment solution? Contact us for more information.</p>
-      <div>
-        <form  method="get">
-          <input type="text" placeholder="Your Name">
-          <input type="email" placeholder="Your Email">
-          <textarea placeholder="Your Message"></textarea>
-          <button type="submit">Submit</button>
-        </form>
-      </div>
-
-     
-    </div>
-  </section> */}
-
-
             <div className='code' id='CodeReview'>
                 <CodeReview />
             </div>

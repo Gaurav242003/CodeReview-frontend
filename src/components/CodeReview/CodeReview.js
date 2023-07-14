@@ -9,13 +9,7 @@ import {GrUserManager} from 'react-icons/gr';
 const CodeReview = () => {
     const [input, setInput] = useState("");
     const [chatlog, setchatlog] = useState([
-      {
-        user:"me",
-        message:"hello"
-      },{
-        user:"gpt",
-        message :"hola"
-      }
+      
     ]);
   
     async function handleSubmit(e) {
